@@ -1,0 +1,60 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google {
+            content {
+                includeGroupByRegex("com\\.android.*")
+                includeGroupByRegex("com\\.google.*")
+                includeGroupByRegex("androidx.*")
+            }
+        }
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://www.dfki.uni-kl.de/artifactory/libs-releases/' }
+        maven { url 'https://s3.amazonaws.com/repo.commonsware.com' }
+        maven { url 'https://maven.pkg.jetbrains.space/public/p/compose/dev' }
+        maven { url 'https://jogamp.org/deployment/maven' }
+        maven { url 'https://raw.githubusercontent.com/cybernhl/maven-repository/master/' }
+        maven { url 'https://api.xposed.info/' }
+    }
+}
+
+dependencyResolutionManagement {
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+        maven { url 'https://www.dfki.uni-kl.de/artifactory/libs-releases/' }
+        maven { url 'https://s3.amazonaws.com/repo.commonsware.com' }
+        maven { url 'https://maven.pkg.jetbrains.space/public/p/compose/dev' }
+        maven { url 'https://jogamp.org/deployment/maven' }
+        maven { url 'https://raw.githubusercontent.com/cybernhl/maven-repository/master/' }
+        maven { url 'https://api.xposed.info/' }
+    }
+}
+
+rootProject.name = "AutoPayment"
+
+include(":Tech:SMSApp")
+project(":Tech:SMSApp").projectDir = file("./technical_method/SMS/app")
+
+
+include(":uiautomatorviewer")
+project(":uiautomatorviewer").projectDir = file("./tools/uiautomatorviewer/uiautomatorviewer_badoo/uiautomatorviewer")
+include(":Autojsx.WIFI")
+project(":Autojsx.WIFI").projectDir = file("./tools/AutojsxPlugin")
+
+include(":xposed:virtual_camera")
+project(":xposed:virtual_camera").projectDir = file("./tools/xposed/virtual_camera/app")
+
+include(":xposed:ImNotADeveloper")
+project(":xposed:ImNotADeveloper").projectDir = file("./tools/xposed/ImNotADeveloperer/app")
+
+include(":xposed:DisableSecurityWindows")
+project(":xposed:DisableSecurityWindows").projectDir = file("./tools/xposed/DisableSecurityWindows/app")
+
+//include(":xposed:IAmNotADeveloper")
+//project(":xposed:IAmNotADeveloper").projectDir = file("./tools/xposed/IAmNotADeveloper/app")
+
+include(":xposed:IAmNotDisabled")
+project(":xposed:IAmNotDisabled").projectDir = file("./tools/xposed/IAmNotDisabled/hook")

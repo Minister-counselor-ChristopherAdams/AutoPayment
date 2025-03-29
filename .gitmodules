@@ -1,0 +1,27 @@
+[submodule "technical_method/SMS"]
+	path = technical_method/SMS
+	url = git@github.com:cybernhl/SMSRetriever-Kotlin.git
+[submodule "tools/uiautomatorviewer"]
+	path = tools/uiautomatorviewer
+	url = git@github.com:cybernhl/uiautomatorviewer.git
+[submodule "tools/AutojsxPlugin"]
+	path = tools/AutojsxPlugin
+	url = git@github.com:cybernhl/Autojsx.WIFI.git
+[submodule "tools/xposed/IAmNotADeveloper"]
+	path = tools/xposed/IAmNotADeveloper
+	url = git@github.com:cybernhl/IAmNotADeveloper.git
+[submodule "tools/xposed/ImNotADeveloperer"]
+	path = tools/xposed/ImNotADeveloperer
+	url = git@github.com:cybernhl/ImNotADeveloper.git
+[submodule "tools/xposed/IAmNotDisabled"]
+	path = tools/xposed/IAmNotDisabled
+	url = git@github.com:cybernhl/IAmNotDisabled.git
+[submodule "tools/xposed/DisableSecurityWindows"]
+	path = tools/xposed/DisableSecurityWindows
+	url = git@github.com:cybernhl/DisableSecurityWindows.git
+[submodule "tools/xposed/DisableFlagSecure"]
+	path = tools/xposed/DisableFlagSecure
+	url = git@github.com:cybernhl/DisableFlagSecure.git
+[submodule "tools/xposed/virtual_camera"]
+	path = tools/xposed/virtual_camera
+	url = git@github.com:cybernhl/android_virtual_cam.git

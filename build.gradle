@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        agp_version=libs.versions.agp.version.get()
+        kotlin_version = libs.versions.kotlin.version.get()
+        versionCode=1
+        versionName='6.6'
+    }
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        google()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+        maven {
+            url = uri('https://maven.pkg.jetbrains.space/public/p/compose/dev')
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$agp_version"
+    }
+}
+
+plugins {
+    id "org.jetbrains.kotlin.jvm" version "${kotlin_version}" apply false
+    id "org.jetbrains.intellij" version "1.17.4" apply false
+}
+
+allprojects {
+
+}
