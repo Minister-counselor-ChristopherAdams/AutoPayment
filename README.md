@@ -24,27 +24,36 @@ The directory structure of this project is as follows:
 AutoPayment/
 ├── area/
 │   ├
-│   ├── India/           # ![image](area/India/photo_2025-03-23_04-13-19.jpg)
-│   ├── Indonesia/       # 印尼地區資料
-│   ├── Thailand/        # ![image](area/Thailand/thailand_banks.jpg)  ![image](area/Thailand/thailand_banks_ui.jpg)
-│   └── Vietnam/         # ![image](area/Vietnam/Bot.png)  ![image](area/Vietnam/photo_2025-03-01_19-41-25.jpg)
+│   ├── India/           # 
+│   ├── Indonesia/       # 
+│   ├── Thailand/        # 
+│   └── Vietnam/         # 
 ├── technical_method/
-│   ├── Accessibility/   # 可訪問性技術
-│   ├── API/             # API 技術
-│   ├── Autojs/          # Autojs 技術
-│   ├── SMS/             # 短信技術
-│   └── VirtualApp/      # 虛擬應用技術
+│   ├── Accessibility/   #
+│   ├── API/             # 
+│   ├── Autojs/          # 
+│   ├── SMS/             # 
+│   └── VirtualApp/      # 
 ├── tools/
-│   ├── AutojsxPlugin/   # Autojsx 插件
-│   ├── uiautomatorviewer/  # UIAutomatorViewer 工具
-│   └── xposed/          # Xposed 插件
+│   ├── AutojsxPlugin/   # 
+│   ├── uiautomatorviewer/  #
+│   └── xposed/          # 
 │       ├── DisableSecurityWindows/
 │       ├── IAmNotADeveloper/
 │       ├── IAmNotDisabled/
 │       ├── ImNotADeveloperer/
 │       └── virtual_camera/
-└── README.md            # 專案文檔
+└── README.md            # 
 ```
+![image](area/India/photo_2025-03-23_04-13-19.jpg)
+
+![image](area/Thailand/thailand_banks.jpg) 
+
+![image](area/Thailand/thailand_banks_ui.jpg)
+
+![image](area/Vietnam/Bot.png)  
+
+![image](area/Vietnam/photo_2025-03-01_19-41-25.jpg)
 
 ## Features
 
