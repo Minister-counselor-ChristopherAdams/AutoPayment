@@ -23,11 +23,11 @@ The directory structure of this project is as follows:
 ```
 AutoPayment/
 ├── area/
-│   ├── show_me_pic.jpg  # 專案概覽圖片
-│   ├── India/           # 印度地區資料
+│   ├
+│   ├── India/           # ![image](area/India/photo_2025-03-23_04-13-19.jpg)
 │   ├── Indonesia/       # 印尼地區資料
-│   ├── Thailand/        # 泰國地區資料
-│   └── Vietnam/         # 越南地區資料
+│   ├── Thailand/        # ![image](area/Thailand/thailand_banks.jpg)  ![image](area/Thailand/thailand_banks_ui.jpg)
+│   └── Vietnam/         # ![image](area/Vietnam/Bot.png)  ![image](area/Vietnam/photo_2025-03-01_19-41-25.jpg)
 ├── technical_method/
 │   ├── Accessibility/   # 可訪問性技術
 │   ├── API/             # API 技術
@@ -92,3 +92,43 @@ The `tools/` folder contains development tools and plugins to assist users in bu
 ![image](area/secondgrace_taiwan_girl_easy_5.jpg)
 
 ![image](area/secondgrace_taiwan_girl_easy_6.jpg)
+
+
+![image](area/secondgrace_taiwan_girl_easy_7.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_8.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_9.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_10.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_44.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_45.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_46.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_47.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_48.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_49.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_54.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_71.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_76.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_77.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_90.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_134.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_145.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_153.jpg)
+
+![image](area/secondgrace_taiwan_girl_easy_177.jpg)
+
